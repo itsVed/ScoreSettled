@@ -1,0 +1,5 @@
+.active-button {
+    -fx-background-color: #3D4D8E; /* A darker shade to indicate active state */
+    -fx-text-fill: WHITE;
+    -fx-font-weight: bold;
+}

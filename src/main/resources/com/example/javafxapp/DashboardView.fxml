@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="532.0" prefWidth="188.0">
+         <children>
+            <AnchorPane prefHeight="538.0" prefWidth="188.0" style="-fx-background-color: #4B5893;">
+               <children>
+                  <JFXButton alignment="CENTER" layoutX="34.0" layoutY="207.0" prefHeight="30.0" prefWidth="121.0" text="Dashboard" textAlignment="CENTER" textFill="WHITE" styleClass="active-button">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" layoutX="33.0" layoutY="253.0" prefHeight="30.0" prefWidth="121.0" text="Friends" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" layoutX="31.0" layoutY="299.0" prefHeight="30.0" prefWidth="121.0" text="Groups" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" layoutX="31.0" layoutY="349.0" prefHeight="30.0" prefWidth="121.0" text="Profile" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Pane prefHeight="532.0" prefWidth="653.0" style="-fx-background-color: #EBECF3;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f2f2" height="426.0" layoutX="1.0" layoutY="106.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="648.0" />
+            <Label alignment="CENTER" layoutX="14.0" layoutY="122.0" prefHeight="52.0" prefWidth="221.0" text="Hello! Username">
+               <font>
+                  <Font name="HelveticaNowDisplay-Bold" size="21.0" />
+               </font>
+            </Label>
+            <TextField layoutX="48.0" layoutY="50.0" opacity="0.75" prefHeight="25.0" prefWidth="397.0" />
+            <Pane layoutX="38.0" layoutY="185.0" prefHeight="117.0" prefWidth="589.0" style="-fx-background-color: #EBECF3;" />
+            <Text layoutX="48.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount owed by you">
+               <font>
+                  <Font name="HelveticaNowDisplay-Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="259.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount owed by others">
+               <font>
+                  <Font name="HelveticaNowDisplay-Medium" size="12.0" />
+               </font>
+            </Text>
+            <Line endX="-44.50995635986328" layoutX="303.0" layoutY="252.0" opacity="0.28" rotate="90.0" startX="-94.0" />
+            <Text layoutX="62.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs. 2000">
+               <font>
+                  <Font name="HelveticaNowDisplay-ExtraBold" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="277.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs. 4000">
+               <font>
+                  <Font name="HelveticaNowDisplay-ExtraBold" size="26.0" />
+               </font>
+            </Text>
+            <Line endX="-44.50995635986328" layoutX="517.0" layoutY="252.0" opacity="0.28" rotate="90.0" startX="-94.0" />
+            <Text layoutX="483.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs. 6000">
+               <font>
+                  <Font name="HelveticaNowDisplay-ExtraBold" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="472.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Outstanding Balance">
+               <font>
+                  <Font name="HelveticaNowDisplay-Medium" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="48.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Summary">
+               <font>
+                  <Font name="HelveticaNowDisplay-Medium" size="12.0" />
+               </font>
+            </Text>
+            <Pane layoutX="39.0" layoutY="350.0" prefHeight="117.0" prefWidth="589.0" style="-fx-background-color: #EBECF3;">
+               <children>
+                  <Text layoutX="8.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quick Access">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Medium" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXButton layoutX="35.0" layoutY="45.0" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #4B5893;" text="Add Expense" textFill="WHITE">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="219.0" layoutY="45.0" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #4B5893;" text="Add Group" textFill="WHITE">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="407.0" layoutY="45.0" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #4B5893;" text="Create Report" textFill="WHITE">
+                     <font>
+                        <Font name="HelveticaNowDisplay-Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</HBox>
